@@ -20,13 +20,18 @@ body, html {
     width: 100%;
     height: 70px;
     background-color: #26255B;
+    border-bottom: 1px solid grey;
     position: fixed;
     top: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
     font-size: 1em;
+    -webkit-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    -moz-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45)
 }
 
 .nav-header > span {
@@ -35,19 +40,43 @@ body, html {
 
 header {
     height: 80px;
-    margin-top: 70px;
+    margin-top: 90px;
     font-size: 0.8em;
-    width: 100%;
+    width: 80%;
+    margin-left: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 250px;
-    
 }
 
-.header > p, .header > p + span {
-    font-size: 1.2em;
+.top-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4%;
+    width: 60%;
+}
+
+.top-nav > span {
+    margin-top: 12px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.img-container {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.img-container > img,
+ .nav-links img,
+ .reset img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
 }
 
 span > a {
@@ -66,7 +95,7 @@ section {
 
 .nav-links {
     border-right: 1px solid #26255B;
-    width: 15%;
+    width: 20%;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -77,19 +106,29 @@ section {
 
 .nav-links a {
     text-decoration: none;
-    width: 60%;
-    height: 45px;
+    width: 50%;
+    height: 47px;
     font-size: 0.9em;
     border-radius: 12px;
+    transition: transform .2s;
     color: #fff;
     background-color: #26255B;
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    -moz-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45)
+}
+
+.nav-links a:hover {
+    /* width: 50.3%;
+    height: 47px; */
+    transform: scale(1.1, 1.1);
 }
 
 .content {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,12 +146,28 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 25px;
     border-radius: 12px;
     width: 22%;
     height: 100px;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 600;
+    -webkit-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    -moz-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+    box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
+}
+
+#net,
+#your-assets, 
+#your-liab {
+    font-size: 1.3em;
+    margin-top: 5px;
+    font-weight: 800;
+}
+
+#your-liab {
+    color: #DB6C6C;
 }
 
 .calculate {
@@ -189,4 +244,11 @@ input:focus {
     color: #fff;
     width: 150px;
     height: 45px;
+    -webkit-box-shadow: 13px 31px 78px -10px rgba(0,0,0,0.45);
+    -moz-box-shadow: 13px 31px 78px -10px rgba(0,0,0,0.45);
+    box-shadow: 13px 31px 78px -10px rgba(0,0,0,0.45);
+}
+
+#business-value {
+    margin-top: 15px;
 }

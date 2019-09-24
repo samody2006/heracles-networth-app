@@ -9,6 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="dashboard.css">
     </head>
@@ -18,8 +19,11 @@
         <![endif]-->
         <main class="container">
             <header>
-                <div class="header">
-                    <p>Home</p>
+                <div class="top-nav">
+                    <div class="img-container">
+                        <img src="/images/home-solid.svg" alt="logo-of-house">
+                        <p>Home</p>
+                    </div>
                     <span>Welcome, Username</span>
                 </div>
             </header>
@@ -29,23 +33,29 @@
             </nav>
             <section>
                 <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">Settings</a>
-                    <a href="#">Log-Out</a>
+                    <a href="#">
+                        <img src="/images/home-solid - Copy.svg" alt="logo-of-house"></i>Home
+                    </a>
+                    <a href="#">
+                        <img src="/images/cog-solid.svg" alt="settings logo"></i>Settings
+                    </a>
+                    <a href="#">
+                        <img src="/images/sign-out-alt-solid.svg" alt="log out"></i>Log-Out
+                    </a>
                 </div>
                 <div class="content">
                     <div class="summary">
                         <div class="networth">
                             <p>Your Net worth</p>
-                            <span>N 1,000.00</span>
+                            <span id="net">N 1,000.00</span>
                         </div>
                         <div class="assets">
                             <p>Your Assets</p>
-                            <span>N 1,000.00</span>
+                            <span id="your-assets">N 1,000.00</span>
                         </div>
                         <div class="liability">
                             <p>Your Liability</p>
-                            <span>-N 1,000.00</span>
+                            <span id="your-liab">N -1,000.00</span>
                         </div>
                     </div>
                     <div class="calculate">
@@ -108,7 +118,9 @@
 
                             </div>
                         </div>
-                        <div class="reset"><a href="#">Reset</a></div>
+                        <div class="reset">
+                            <a href="#"><img src="/images/sync-alt-solid.svg" alt="reset logo"></i>Reset</a>
+                        </div>
                     </div>  
                 </div>
             </section>
