@@ -33,7 +33,10 @@ body, html {
     -moz-box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45);
     box-shadow: 9px 25px 44px -28px rgba(0,0,0,0.45)
 }
-
+.dashboard-contain{
+    margin: 30px;
+    padding: 20px;
+}
 .nav-header > span {
     margin: 0 70px;
 }
@@ -48,7 +51,15 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+  .nav-left{
+    position: fixed;
 }
+.dashboard-header{
+    margin: 50px;
+    margin-left: 20%;
+}
+
 
 .top-nav {
     display: flex;
@@ -86,22 +97,19 @@ span > a {
 }
 
 
-section {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-}
 
 .nav-links {
     border-right: 1px solid #26255B;
     width: 20%;
     height: 300px;
+    padding: 20px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 30px;
+    margin-top: 60%;
+    padding-right: 30px;
 }
 
 .nav-links a {
@@ -113,6 +121,8 @@ section {
     transition: transform .2s;
     color: #fff;
     background-color: #26255B;
+    padding: 20px;
+    height: 12%;
     display: flex;
     justify-content: center;
     align-items: center;
