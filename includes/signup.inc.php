@@ -4,7 +4,8 @@ ob_start();
 session_start();
 if (isset($_POST['regBtn']))
   {
-    $fullname=$_POST['fullname'];
+    
+    $fullname= $_POST['fullname']." ".$_POST['lastname'];
     $email=$_POST['email'];
     $password=$_POST['password'];
     $contact=$_POST['mobile'];

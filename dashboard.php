@@ -77,8 +77,8 @@ session_start();
                         <span>Welcome,<?php echo $_SESSION['name']?></span>
 
                     </div>
-                    <!-- <div class="summary">
-                            <div class="networth">
+                    <!-- <div class="summary" >
+                            <div class="networth" id="_networth" >
                                 <p>Your Net worth</p>
                                 <span>00.00</span>
                             </div>
@@ -88,7 +88,7 @@ session_start();
                             </div>
                             <div class="liability">
                                 <p>Your Liability</p>
-                                <span>- 00.00</span>
+                                <span id="liabilitySum">- 00.00</span>
                             </div>
                         </div> -->
                         <div class="dashboard-content">
@@ -214,3 +214,6 @@ session_start();
 
     </body>
 </html>
+
+
+

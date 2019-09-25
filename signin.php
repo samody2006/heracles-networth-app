@@ -12,20 +12,21 @@
     <title>Heracle|sign-in</title>
 </head>
 <body>
-       <div class="mobile">
-                <div class="bg-white form animated slideInLeft ">
-                <?php
+   <div class="container-fluid main d-flex">
+  
+       <div class="row">
+           <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="bg-white form d-flex">
+                 <?php
                  if (isset($_GET["error"])) {
                     if ($_GET['error']=='Invalid_Username_and_Password') {
-                         echo '<p><p style = "text-align:center" class="text-danger"> Invalid username or password</p><p>';
+                         echo '<p><p style = "text-align:center" class=" form-group text-danger"> Invalid username or password</p><p>';
                         }  
                      }
                     ?>
-                        <form action="includes/login.inc.php" method="post" class="form-container">
-                            <div class="form-header">
-                                <img class="heracles-logo" src="https://res.cloudinary.com/benjee/image/upload/v1569459183/Heracles_Logo_2_qve8nw.svg" alt="Heracles">    
-                                <h1>Login Your Account</h1>
-                            </div>
+              
+                        <form action="includes/login.inc.php" class="form-group" method="post">
+                            <h5 class="font-weight-bolder">Log in to Your Heracle Account</h5>
                             <div class="email-content">
                                 <label for="email" class="pt-2">EMAIL ADDRESS</label>
                                 <input type="email" id="email" class="form-control fc" name="email">
@@ -51,7 +52,7 @@
         </div>
         <div class=" bg-white form d-flex">
             <form action="" class="form-group mx-auto">
-                <h4 class="font-weight-bolder">Log in to Create Your Heracle Account</h4>
+                <h4 class="font-weight-bolder">Log in to Your Heracle Account</h4>
                 <div class="email-content">
                     <label for="email" class="pt-2">EMAIL</label>
                     <input type="email" class="form-control fc">
