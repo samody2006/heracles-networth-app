@@ -4,14 +4,27 @@ ob_start();
 session_start();
 if (isset($_POST['regBtn']))
   {
-    
+    //setting variable gotten from the Form
     $fullname= $_POST['fullname']." ".$_POST['lastname'];
     $email=$_POST['email'];
     $password=$_POST['password'];
     $contact=$_POST['mobile'];
+    $Cpassword = $_POST['confirmPassword'];
     $enc_password=md5($password);
     $a=date('Y-m-d');
 
+    //Validation 
+    if(empty($fullname) || empty($email) || empty($contact) || empty($Cpassword) ){
+      //note that i am making the errors unique ...
+      header("Location: ../signup.php?error=emptyfields");
+      exit();
+
+    }elseif($password !== $Cpassword){
+      header("Location: ../signup.php?error=passwordmatch");
+      exit();
+
+    } else{
+      //selecting the user from Db
     $user_check_query = "SELECT * FROM users WHERE email='$email' LIMIT 1";
     $result = mysqli_query($con, $user_check_query);
     $user = mysqli_fetch_assoc($result);
@@ -30,4 +43,4 @@ if (isset($_POST['regBtn']))
       header("Location: ../signin.php");
     }
   }
-  
+}

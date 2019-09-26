@@ -21,6 +21,10 @@
                             if (isset($_GET["error"])) {
                                if ($_GET['error']=='userAlreadyExist') {
                                     echo '<p><p style = "text-align:center" class="text-danger"> User already exists</p><p>';
+                                   }elseif($_GET['error']=='emptyfields'){
+                                    echo '<p><p style = "text-align:center" class="text-danger"> PLease all fields correctly</p><p>';
+                                   }else{
+                                    echo '<p><p style = "text-align:center" class="text-danger">PLease make sure that your passwords match</p><p>';
                                    }    
                                 }
                            ?> 
