@@ -13,6 +13,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     <div class="container-fluid login-container">
         <div class="login-bg">
             <div class="row ">
@@ -53,6 +54,39 @@
                                 <!-- <label for="phonenumber">phone number</label><br> -->
                                 <input type="text" class="login-control" id="mobile" name="mobile"
                                     placeholder="Phone number">
+=======
+    <div class="login-container">
+            <div class="login-bg">
+                    <div class="login-content">
+                 
+                    <div class="signup-form animated slideInLeft">
+                        <?php
+                         if (isset($_GET["error"])) {
+                            if ($_GET['error']=='userAlreadyExist') {
+                                 echo '<p><p style = "text-align:center" class="text-danger"> User already exists</p></p>';
+                                }    
+                             }
+                        ?>
+                        <form action="includes/signup.inc.php" method="post"  onsubmit="return formValidation()">
+                            <div class="form-header">
+                                    <img class="heracles-logo" src="https://res.cloudinary.com/benjee/image/upload/v1569459183/Heracles_Logo_2_qve8nw.svg" alt="Heracles">    
+                                    <h1>Create Your Account</h1>
+                                </div>
+                            <div class="form-group">
+                                <input type="text" class="login-control" id="firstname" placeholder="Fullname" required name="fullname">
+                                </div>
+                            <div class="form-group" required>
+                                <div class="input-control">
+                                    <input type="email" class="login-control" id="email" name="email"placeholder="Email Address">
+                                    <input type="text" class="login-control" id="mobile"name="mobile" placeholder="Phone number">
+                                </div>
+                                </div>
+                            <div class="form-group">
+                                <div class="input-control">
+                                    <input type="password" class="login-control" id="password" placeholder="Password" required name="password">
+                                    <input type="password" class="login-control" id="Cpassword"name="confirmPassword" placeholder="Confirm Password" required>
+                                </div>
+>>>>>>> faa05d530281a94b6e00f8f29c2e36514bf68d70
                             </div>
                             <div class="w-100"></div><br>
                             <div class="form-group col-sm col- md col-lg">

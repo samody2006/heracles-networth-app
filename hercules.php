@@ -32,7 +32,11 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
                 <p>That's your net worth, Calculate it here.</p>
             </article>
             <div class="action">
+<<<<<<< HEAD
                 <a href="Signup.php" id="get-started">Get started</a>
+=======
+                <a href="signup.php" id="get-started">Get started</a>
+>>>>>>> faa05d530281a94b6e00f8f29c2e36514bf68d70
                 <a href="signin.php" id="login">Log In</a>
             </div>
         </section>
