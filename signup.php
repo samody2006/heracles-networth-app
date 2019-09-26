@@ -92,5 +92,9 @@
         crossorigin="anonymous"></script>
     <script src='js/signup.js'></script>
 </body>
+<<<<<<< HEAD
 
 </html>
+=======
+</html>
+>>>>>>> 97e9fd9f9a1dd387a4ec8535217641acbcba8b46

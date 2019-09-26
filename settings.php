@@ -52,7 +52,7 @@ session_start();
                         <img src="https://res.cloudinary.com/ottyhaq/image/upload/v1569403826/Rectangle_5_t4rgzw.png">  
                     </div>
                     <div class="logout">
-                        <a href="#"><img src="https://res.cloudinary.com/benjee/image/upload/v1569349789/Group_18.1_mddzax.svg" alt="Heracles"></a>
+                        <a href=""><img src="https://res.cloudinary.com/benjee/image/upload/v1569349789/Group_18.1_mddzax.svg" alt="Heracles"></a>
                     </div>
                 </section>
                 <?php else:?>
