@@ -1,3 +1,10 @@
+<?php
+session_start();
+// include("includes/checklogin.php");
+// check_login();
+
+	
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -16,17 +23,19 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+<?php if (isset($_SESSION["loggedin"])): ?>
+
         <main class="container">
             <header class="nav-header">
                 <span><a href="#"><img src="https://res.cloudinary.com/ottyhaq/image/upload/v1569400432/Heracles_Logo_1_m0sxzt.png" alt="Heracles"></a></span>
-                <span><a href="#"><img class="icon" src="https://res.cloudinary.com/ottyhaq/image/upload/v1569400431/Vector_6_fjie50.png" alt="username" width="30" height="30"></a>Username</span>
+                <span><a href="#"><img class="icon" src="https://res.cloudinary.com/ottyhaq/image/upload/v1569400431/Vector_6_fjie50.png" alt="username" width="30" height="30"></a><?php echo $_SESSION['name']?></span>
             </header>
             <div class="settings-contain">
                 <section class="nav-left">
                     <div class="nav-links">
                         <a href="#"><span><img class="icon" src="https://res.cloudinary.com/benjee/image/upload/v1569337224/home-icon-silhouette_vzxxtu.svg" alt="home" width="30" height="30"></span>Home</a>
-                        <a href="#"><span><img class="icon" src="https://res.cloudinary.com/benjee/image/upload/v1569337223/settings_ffgo0r.svg" alt="home" width="30" height="30"></span>Settings</a>
-                        <a href="#"><span><img class="icon" src="https://res.cloudinary.com/benjee/image/upload/v1569337223/logout_jimglg.svg" alt="home" width="30" height="30"></span>Log out</a>
+                        <a href="dashboard.php"><span><img class="icon" src="https://res.cloudinary.com/benjee/image/upload/v1569337223/settings_ffgo0r.svg" alt="home" width="30" height="30"></span>Settings</a>
+                        <a href="includes/logout.inc.php"><span><img class="icon" src="https://res.cloudinary.com/benjee/image/upload/v1569337223/logout_jimglg.svg" alt="home" width="30" height="30"></span>Log out</a>
                     </div>
                 </section>
                 <section class="settings-header">
@@ -45,7 +54,11 @@
                     <div class="logout">
                         <a href="#"><img src="https://res.cloudinary.com/benjee/image/upload/v1569349789/Group_18.1_mddzax.svg" alt="Heracles"></a>
                     </div>
-                </section>  
+                </section>
+                <?php else:?>
+<h1>You are not logged in, Please <a href="signin.php">signin</a> to Access this page</h1>
+        
+        <?php endif;?>  
         </main>
         <script src="" async defer></script>
     </body>

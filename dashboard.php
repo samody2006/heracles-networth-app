@@ -45,7 +45,7 @@ session_start();
                             <span id="liabilitySum">- 00.00</span>
                         </div>
                 </div>
-                <span><a href="#">Username</a></span>
+                <span><a href="#"><?php echo $_SESSION['name']?></a></span>
         </header>
 
             <div class="dashboard-contain">
@@ -74,7 +74,7 @@ session_start();
                             Home
                             </p>
                         </span>
-                        <span>Welcome,<?php echo $_SESSION['name']?></span>
+                        <span>Welcome <?php echo $_SESSION['name']?></span>
 
                     </div>
                     <!-- <div class="summary" >
