@@ -39,7 +39,7 @@
                                 <button class="form-control btn"  name="loginBtn"type="submit">Login</button>
                             </div> <br/>
                             <div class="register d-flex">
-                                <p class="mx-auto"> Dont have an account?
+                                <p class="mx-auto"> Don't have an account?
                                     <a class="nav-item text-dark" href="signup.php">Register</a>
                                 </p>
                             </div>
