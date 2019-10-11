@@ -32,7 +32,7 @@
                             <div class="form-group" >
                                 <div class="input-control">
                                     <input type="email" class="login-control" id="email" name="email"placeholder="Email Address" required>
-                                    <input type="number" class="login-control" id="mobile"name="mobile" placeholder="Phone number" required>
+                                    <input type="text" class="login-control" id="mobile"name="mobile" placeholder="Phone number" required>
                                 </div>
                                 </div>
                             <div class="form-group">
@@ -41,7 +41,7 @@
                                     <input type="password" class="login-control" id="Cpassword"name="confirmPassword" placeholder="Confirm Password"  required>
                                 </div>
                             </div>
-                            <div class="g-recaptcha" data-sitekey="6LcUkrsUAAAAAHzhwTdJ9Ez0q_aIv_Mr98gsm5q8" name="captcha"></div>
+                             <div class="g-recaptcha" data-sitekey="6LdsHr0UAAAAAI0xzrDZs8Qgwgh9ahb1NWKfoHax" name="captcha"></div>
                             <button type="submit" name="regBtn"class="btn signup-btn">Create Account</button>
                             <div class="register d-flex">
                                     <p class="mx-auto"> Already have an account?
