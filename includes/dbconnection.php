@@ -8,10 +8,10 @@
 // define('DB_PASS' ,"16a1a0d0");
 // define('DB_NAME', "heroku_6639abf7d3c0725");
 
-define('DB_SERVER', "localhost");
-define('DB_USER', "root");
-define('DB_PASS', "");
-define('DB_NAME', "networth-calc");
+define('DB_SERVER', "us-cdbr-iron-east-02.cleardb.net");
+define('DB_USER',"b8adee48c9781d");
+define('DB_PASS' ,"a4d59b94");
+define('DB_NAME', "heroku_18b50216444bfd7");
 
 
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);

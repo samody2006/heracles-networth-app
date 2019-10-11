@@ -1,4 +1,4 @@
-use heroku_6639abf7d3c0725;
+use heroku_18b50216444bfd7;
 create table if not exists `networth` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `year` varchar(6) NOT NULL,
@@ -15,8 +15,8 @@ create table if not exists `networth` (
 
 
 //username
-bf719ff1122979
+b8adee48c9781d
  //host
-us-cdbr-iron-east-02.cleardb.net
+us-cdbr-iron-east-05.cleardb.net
 -- //password
-f2612284
+a4d59b94
