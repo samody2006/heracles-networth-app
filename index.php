@@ -15,6 +15,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.2.95/css/materialdesignicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
@@ -37,9 +38,7 @@ if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
             </div>
         </section>
     </main>
-    <footer style="z-index:-1;"><?php include 'footer.php';?></footer>
-
-</body>
-
+    </body>
+<footer style="z-index:-1;"><?php include 'footer.php';?></footer>
 
 </html>
