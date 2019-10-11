@@ -20,7 +20,7 @@
                     <div class="signup-form animated slideInLeft">
                     
                    
-                         <form action="signup.php" method="POST" name="form">
+                         <form  method="POST" name="form">
                             <div class="form-header">
                                     <img class="heracles-logo" src="https://res.cloudinary.com/benjee/image/upload/v1569459183/Heracles_Logo_2_qve8nw.svg" alt="Heracles">    
                                     <h1>Create Your Account</h1>
@@ -32,7 +32,7 @@
                             <div class="form-group" >
                                 <div class="input-control">
                                     <input type="email" class="login-control" id="email" name="email"placeholder="Email Address" required>
-                                    <input type="text" class="login-control" id="mobile"name="mobile" placeholder="Phone number" required>
+                                    <input type="number" class="login-control" id="mobile"name="mobile" placeholder="Phone number" required>
                                 </div>
                                 </div>
                             <div class="form-group">
@@ -49,6 +49,7 @@
                                     </p>
                                 </div>
                         </form> 
+                                   
                     </div>        
                     </div>
                     
