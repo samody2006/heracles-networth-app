@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="signin.css">
     <title>Heracle|sign-in</title>
 </head>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a href="index.php" class="navbar-brand">Heracles</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+            <a href="index.php" class="nav-item nav-link">Home</a>
+            <a href="Dashboard.php" class="nav-item nav-link">Networth</a>
+            <a href="Contactus.html" class="nav-item nav-link">Contact Us</a>
+            <a href="faqs.html" class="nav-item nav-link">FAQs</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a href="signin.php" class="nav-item nav-link active">Login</a>
+            <a href="signup.php" class="nav-item nav-link">Sign Up</a>
+        </div>
+    </div>
+</nav>
 <body>
        <div class="mobile">
                 <div class="bg-white form animated slideInLeft ">
@@ -95,6 +114,7 @@
         </div>
     </div> -->
    </div>
+   <footer style="z-index:-1;"><?php include 'footer.php';?></footer>
    
    <script src="js/signin.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 

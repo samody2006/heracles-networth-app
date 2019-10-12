@@ -1,36 +1,40 @@
-<?php
-session_start();
-if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true) {
-  $msg = "You are already logged in";
-  header("location: dashboard.php?message=$msg");
-}?>
+
 <header>
-			<div class="wrapper">
-				<h1 href="index.php" class="logo">heracles</h1>
-				<a href="#" class="hamburger"></a>
-				<nav>
-					<?php
-						if(isset($_SESSION["loggedin"]) ){
-					?>
-					<ul>
-						<li><a href="index.php">Home</a></li>
-						<li><a href="dashboard.php">Networth</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-					<button style="#"><a href="signin.php">Login</a></button>
-					
-					<?php
-						} else{
-					?>
-							<ul>
-								<li><a href="index.php">Home</a></li>
-								<li><a href="dashboard.php">Networth</a></li>
-								</ul>
-					<a href="includes/logout.inc.php">Logout</a>
-					<?php
-						}
-					?>
+	<style type="text/css">
+		/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}</style>
+<div class="topnav">
+  <a  href="index.php">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
 				</nav>
 			</div>
 		</header>
