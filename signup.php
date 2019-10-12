@@ -9,11 +9,11 @@
     <link rel="icon" href="images/Heracles.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="style/signup.css">
     <?php include('mail.php') ?>
 </head>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a href="index.php" class="navbar-brand">Heracles</a>
+    <a href="index.php" class="navbar-brand"><img class="heracles-logo" src="https://res.cloudinary.com/benjee/image/upload/v1569459183/Heracles_Logo_2_qve8nw.svg" alt="Heracles"> </a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,6 +24,7 @@
             <a href="Dashboard.php" class="nav-item nav-link">Networth</a>
             <a href="Contactus.html" class="nav-item nav-link">Contact Us</a>
             <a href="faqs.html" class="nav-item nav-link">FAQs</a>
+            <a href="team.html" class="nav-item nav-link">Team</a>
         </div>
         <div class="navbar-nav ml-auto">
             <a href="signin.php" class="nav-item nav-link">Login</a>
