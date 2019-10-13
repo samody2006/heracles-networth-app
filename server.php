@@ -86,7 +86,7 @@ if (isset($_POST['regBtn'])) {
     mysqli_query($con, $query);
     $_SESSION['fullname'] = $fullname;
     $_SESSION['success'] = "Registeration successful, please login";
-    header('Location: signin.php');
+    header('Location: dashboard.php');
   }
 
 }
