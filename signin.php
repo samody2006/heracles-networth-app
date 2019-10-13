@@ -74,7 +74,7 @@
                                     <input type="password" id="password" name="password" class="form-control fc" value="<?php echo $_SESSION['old_input']['password'] ?? '' ?>" placeholder='Password'>                                
                                     </div> <br/>
                             <div class="button">
-                                <button class="form-control btn"  name="loginBtn"type="submit">Login</button>
+                                <button class="form-control btn" action= "dashboard.php" method="post" name="loginBtn"type="submit">Login</button>
                             </div> <br/>
                         </form>
                             <form method="get" action="password-recovery/enter_email.php" class="button">
