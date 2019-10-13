@@ -10,9 +10,9 @@ $mobile = "";
 $errors = array(); 
 
 // connect to the database
-define('DB_SERVER', "54.86.137.146");
+define('DB_SERVER',"54.86.137.146");
 define('DB_USER',"heracles_makeup");
-define('DB_PASS' ,"n3tw0rth@p9");
+define('DB_PASS',"n3tw0rth@p9");
 define('DB_NAME', "heracles_makeup");
 
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);

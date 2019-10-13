@@ -37,10 +37,11 @@
                   <h2 style="color: #26255B";>Contact Us</h2>
                   <p style="color: #26255B";>Have a question or suggestion? You can leave us a message:</p>
             </div>
+            
             <div class="row">
                 <div class="column">
                         <div class="column">
-                                <img src="images/stephen-olatunde-LKEmEcfD0Es-unsplash.jpg" alt="An aerial view of Lagos" style="width:200%">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d15856.334481934015!2d3.3627260269792587!3d6.511099574643041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d6.5137963!2d3.3691252!4m5!1s0x103b8c58aa4e0931%3A0x9ddabc4518c15d14!2sHotels.ng%2C%203%20Birrel%20Ave%2C%20Yaba%2C%20Lagos!3m2!1d6.509180799999999!2d3.3795045999999997!5e0!3m2!1sen!2sng!4v1570995205250!5m2!1sen!2sng" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                 </div>
                 <div class="column">
