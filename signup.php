@@ -21,10 +21,10 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
             <a href="index.php" class="nav-item nav-link">Home</a>
-            <a href="Dashboard.php" class="nav-item nav-link">Networth</a>
-            <a href="Contactus.html" class="nav-item nav-link">Contact Us</a>
-            <a href="faqs.html" class="nav-item nav-link">FAQs</a>
-            <a href="team.html" class="nav-item nav-link">Team</a>
+            <a href="dashboard.php" class="nav-item nav-link">Networth</a>
+            <a href="contactus.php" class="nav-item nav-link">Contact Us</a>
+            <a href="faqs.php" class="nav-item nav-link">FAQs</a>
+            <a href="team.php" class="nav-item nav-link">Team</a>
         </div>
         <div class="navbar-nav ml-auto">
             <a href="signin.php" class="nav-item nav-link">Login</a>

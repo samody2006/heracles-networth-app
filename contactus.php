@@ -20,10 +20,10 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
             <a href="index.php" class="nav-item nav-link">Home</a>
-            <a href="Dashboard.php" class="nav-item nav-link">Networth</a>
-            <a href="Contactus.html" class="nav-item nav-link active">Contact Us</a>
-            <a href="faqs.html" class="nav-item nav-link">FAQs</a>
-            <a href="team.html" class="nav-item nav-link">Team</a>
+            <a href="sashboard.php" class="nav-item nav-link">Networth</a>
+            <a href="contactus.php" class="nav-item nav-link active">Contact Us</a>
+            <a href="faqs.php" class="nav-item nav-link">FAQs</a>
+            <a href="team.php" class="nav-item nav-link">Team</a>
         </div>
         <div class="navbar-nav ml-auto">
             <a href="signin.php" class="nav-item nav-link">Login</a>
@@ -89,6 +89,7 @@ return false;
  <script type="text/javascript" src="js/top.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/top.js"></script>
 </body>
 </html>
