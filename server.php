@@ -13,7 +13,7 @@ $errors = array();
 define('DB_SERVER', "54.86.137.146");
 define('DB_USER',"heracles-makeup");
 define('DB_PASS' ,"n3tw0rth@p9");
-define('DB_NAME', "heracles-makeup");
+define('DB_NAME', "heracles_makeup");
 
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 
