@@ -44,7 +44,7 @@
                         </div>
                 </div>
                 <div class="column">
-                    <form action="form.php">
+                    <form action="form.php" method="post">
                       <label for="fname">First Name</label>
                       <input type="text" id="fname" name="firstname" placeholder="Your name..">
                       <label for="lname">Last Name</label>
@@ -56,7 +56,7 @@
                         <option value="south africa">South Africa</option>
                         <option value="others">Others</option>
                       </select>
-                      <label for="subject">Subject</label>
+                      <label for="subject">Message</label>
                       <textarea id="subject" name="subject" placeholder="Say something nice..." style="height:170px"></textarea>
                       <input type="submit" value="Submit" name="Submit">
                     </form>

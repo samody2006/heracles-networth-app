@@ -1,3 +1,4 @@
+use heracles_makeup;
 CREATE TABLE `contact` (
   `id` int(11) NOT NULL,
   `firstname` varchar(200) NOT NULL,
@@ -11,7 +12,7 @@ CREATE TABLE `contact` (
 --
 -- Table structure for table `networth`
 --
-
+use heracles_makeup;
 CREATE TABLE `networth` (
   `id` int(11) NOT NULL,
   `year` varchar(6) NOT NULL,
@@ -26,7 +27,7 @@ CREATE TABLE `networth` (
 --
 -- Table structure for table `users`
 --
-
+use heracles_makeup;
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `fullname` varchar(255) NOT NULL,
